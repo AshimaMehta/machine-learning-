@@ -90,10 +90,10 @@ mod = str(model.layers)
 print(mod)
 
 
-#Sending Mail If Accuracy is > 95%
+#Sending Mail If Accuracy is > 90%
 import smtplib
 import os
-if pred1[1]*100 >= 95:
+if pred1[1]*100 >= 90:
     email = 'abc@gmail.com' # Your email
     password = '************' # Your email account password
     send_to_email = 'abc@gmail.com' # Who you are sending the message to
